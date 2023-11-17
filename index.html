@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>同行者募集</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>同行者募集</h1>
+     <!-- コメントフォーム -->
+     <form action="submit_comment.php" method="post">
+        <label for="name">名前:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="comment">コメント:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br>
+
+        <input type="submit" value="コメントを投稿">
+    </form>
+
+    <!-- 投稿されたコメントの表示 -->
+    <div class="comment">
+        <strong>John Doe:</strong>
+        <p>This is a sample comment.</p>
+    </div>
+
+    <div class="comment">
+        <strong>Jane Smith:</strong>
+        <p>Another example comment.</p>
+    </div>
+
+    <!-- ここに他のコメントを追加 -->
+
+    
+</body>
+</html>
